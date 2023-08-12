@@ -1,0 +1,41 @@
+<html>
+<head>
+    <title>TEMPERTURE_CONVERTER</title>
+    <link rel="stylesheet" type="text/css" href="Temp_converter.css">
+    <script type="text/javascript" src="Temp_converter.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <div id="main">
+        <div id="head">TEMPERTURE CONVERTER</div>
+        <form onsubmit="cal(); return false">
+            <div id="main1">
+                <div id="header">CONVERTER</div>
+                <div id="content">
+                    <TABLE align="center">
+                        <TR><p>
+                            <TD id="tf">DEGREES &nbsp;</TD>
+                            <TD><input type="number" id="deg" placeholder="ENTER DEGREE" style="height: 25px; width: 200px; border: 2px solid black;"><br></TD></p>
+                        </TR>
+                        <TR>
+                            <TD id="tf">TYPE</TD>
+                            <TD><select name="temp" id="temp" style="height: 25px; width: 200px; border: 2px solid black;">
+                                <option value="celsius">CELSIUS</option>
+                                <option value="fahrenheit">FAHRENHEIT</option>
+                                </select>
+                            </TD>
+                        </TR>
+                        <TR>
+                            <TD id="tf">RESULT</TD>
+                            <TD><input type="textfield" id="result" style="height: 25px; width: 200px; border: 2px solid black;"></TD>
+                        </TR>
+                    </TABLE>
+                    <p><center><input type="submit" value="CONVERT" style=" height: 50px; color: white; background-color: black; width: 200px; font-size: 20px; font-weight: bold; border-radius: 5px;"></center></p>
+                </div> 
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
